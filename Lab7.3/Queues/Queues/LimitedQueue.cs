@@ -12,6 +12,7 @@ namespace Queues
     {
         Queue<T> _queue;
         Semaphore _lock;
+        private object _addRemoveLock=new object();
         public LimitedQueue(int maxSizeQueue)
         {
             _queue = new Queue<T>(maxSizeQueue);
@@ -19,14 +20,21 @@ namespace Queues
         }
         public T Dequeue()
         {
-            T value = _queue.Dequeue();
+            T value;
+            lock (_addRemoveLock)
+            {
+                value = _queue.Dequeue();  
+            }
             _lock.Release();
             return value;
         }
         public void Enqueue(T item)
         {
             _lock.WaitOne();
-            _queue.Enqueue(item);
+            lock (_addRemoveLock)
+            {
+                _queue.Enqueue(item);
+            }
         }
 
         public IEnumerator<T> GetEnumerator()
