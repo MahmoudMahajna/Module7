@@ -1,0 +1,9 @@
+C:\Users\Mahmood\Source\Repos\Lab7.5\BackgroundPrimeCalc\BackgroundPrimeCalc\bin\Debug\BackgroundPrimeCalc.exe.config
+C:\Users\Mahmood\Source\Repos\Lab7.5\BackgroundPrimeCalc\BackgroundPrimeCalc\bin\Debug\BackgroundPrimeCalc.exe
+C:\Users\Mahmood\Source\Repos\Lab7.5\BackgroundPrimeCalc\BackgroundPrimeCalc\bin\Debug\BackgroundPrimeCalc.pdb
+C:\Users\Mahmood\Source\Repos\Lab7.5\BackgroundPrimeCalc\BackgroundPrimeCalc\obj\Debug\BackgroundPrimeCalc.csprojResolveAssemblyReference.cache
+C:\Users\Mahmood\Source\Repos\Lab7.5\BackgroundPrimeCalc\BackgroundPrimeCalc\obj\Debug\BackgroundPrimeCalc.Form1.resources
+C:\Users\Mahmood\Source\Repos\Lab7.5\BackgroundPrimeCalc\BackgroundPrimeCalc\obj\Debug\BackgroundPrimeCalc.Properties.Resources.resources
+C:\Users\Mahmood\Source\Repos\Lab7.5\BackgroundPrimeCalc\BackgroundPrimeCalc\obj\Debug\BackgroundPrimeCalc.csproj.GenerateResource.Cache
+C:\Users\Mahmood\Source\Repos\Lab7.5\BackgroundPrimeCalc\BackgroundPrimeCalc\obj\Debug\BackgroundPrimeCalc.exe
+C:\Users\Mahmood\Source\Repos\Lab7.5\BackgroundPrimeCalc\BackgroundPrimeCalc\obj\Debug\BackgroundPrimeCalc.pdb
