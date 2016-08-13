@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncDemo", "SyncDemo\SyncDemo.csproj", "{4B97335E-565A-462F-8572-0BC92223089D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoInstancesOfSyncDemo", "TwoInstancesOfSyncDemo\TwoInstancesOfSyncDemo.csproj", "{450E64C8-ABAC-4B56-9E49-72EB78CB97EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B97335E-565A-462F-8572-0BC92223089D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B97335E-565A-462F-8572-0BC92223089D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B97335E-565A-462F-8572-0BC92223089D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B97335E-565A-462F-8572-0BC92223089D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{450E64C8-ABAC-4B56-9E49-72EB78CB97EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{450E64C8-ABAC-4B56-9E49-72EB78CB97EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{450E64C8-ABAC-4B56-9E49-72EB78CB97EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{450E64C8-ABAC-4B56-9E49-72EB78CB97EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

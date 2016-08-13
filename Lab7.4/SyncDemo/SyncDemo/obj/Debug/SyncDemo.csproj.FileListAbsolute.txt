@@ -1,0 +1,6 @@
+C:\Users\Mahmood\Source\Repos\Lab7.4\SyncDemo\SyncDemo\bin\Debug\SyncDemo.exe.config
+C:\Users\Mahmood\Source\Repos\Lab7.4\SyncDemo\SyncDemo\bin\Debug\SyncDemo.exe
+C:\Users\Mahmood\Source\Repos\Lab7.4\SyncDemo\SyncDemo\bin\Debug\SyncDemo.pdb
+C:\Users\Mahmood\Source\Repos\Lab7.4\SyncDemo\SyncDemo\obj\Debug\SyncDemo.csprojResolveAssemblyReference.cache
+C:\Users\Mahmood\Source\Repos\Lab7.4\SyncDemo\SyncDemo\obj\Debug\SyncDemo.exe
+C:\Users\Mahmood\Source\Repos\Lab7.4\SyncDemo\SyncDemo\obj\Debug\SyncDemo.pdb
