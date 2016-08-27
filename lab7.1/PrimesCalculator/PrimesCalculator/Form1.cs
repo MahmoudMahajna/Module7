@@ -11,6 +11,7 @@ using System.Windows.Forms;
 
 namespace PrimesCalculator
 {
+    //UI is unresponsive.
     public partial class Form1 : Form
     {
         public Form1()
@@ -31,7 +32,12 @@ namespace PrimesCalculator
                     primes = pc.CalcPrimes(from, to);
                 });
                 thread.Start();
+
+                //This is not good. This is making your UI unresponsive.
                 thread.Join();
+
+                //You should have used the same 'Invoke' method for all of the numbers.
+                //lstResult.Invoke((Action) (() => primes.ToList().ForEach(prime => lstResult.Items.Add(prime))));
                 primes.ToList().ForEach((prime) => lstResult.Invoke((Action)(() => lstResult.Items.Add(prime))));
             }
             catch (Exception ex)

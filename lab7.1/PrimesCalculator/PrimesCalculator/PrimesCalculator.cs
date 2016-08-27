@@ -11,7 +11,8 @@ namespace PrimesCalculator
     {
         public IEnumerable<int> CalcPrimes(int from,int to)
         {
-            return Enumerable.Range(from, to - from+1).Where((num) => IsPrime(num));
+            //Sweet
+            return Enumerable.Range(from, to - from+1).Where(IsPrime);
         }
 
         private bool IsPrime(int num)
@@ -24,6 +25,8 @@ namespace PrimesCalculator
             {
                 return true;
             }
+
+            //Nice
             var list=Enumerable.Range(2, (int)(Math.Sqrt(num))).Where((number) => num % number == 0).ToList();
             return list.Count == 0 ? true : false;
         }
