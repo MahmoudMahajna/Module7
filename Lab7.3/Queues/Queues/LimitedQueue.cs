@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 
 namespace Queues
 {
+    //No IDisposable to release the semaphore?
+    //the implementation of IEnumerable is a really nice idea.
     class LimitedQueue<T>:IEnumerable<T> 
     {
         Queue<T> _queue;
@@ -25,6 +27,8 @@ namespace Queues
             {
                 value = _queue.Dequeue();  
             }
+
+            //You should insert it into a finaly clause when working with acquire-release pattern
             _lock.Release();
             return value;
         }
