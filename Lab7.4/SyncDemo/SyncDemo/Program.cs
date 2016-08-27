@@ -18,7 +18,11 @@ namespace SyncDemo
                     for (int i = 0; i < 10000; i++)
                     {
                         SyncFileMutex.WaitOne();
+
+                        //Nice
                         File.AppendAllText(@"C:\temp\data.txt", proccessId);
+
+                        //Not wrapping the release in try-catch-finaly
                         SyncFileMutex.ReleaseMutex();
                     }
                 }
